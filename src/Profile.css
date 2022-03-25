@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.profile {
+  background: #fafafa;
+ 
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+}
+.profile__header {
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.profile__infoContainer{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.profile__highlightedtext{
+    color: #3995f6;
+    font-weight: 800;
+}
+.profile__username {
+  margin-left: 10px;
+}
+.profile__text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: gray;
+}
+.profile__text strong{
+    margin-right: 4px;
+}
+.profile__allpostsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+   
+}
+.profile__allpostsContainer > img{
+    flex: 1;
+    border: 1px solid lightgray;
+    margin: 1px;
+}
+
+.profile__postsImage{
+    width: 40%;
+    object-fit: cover;
+}
